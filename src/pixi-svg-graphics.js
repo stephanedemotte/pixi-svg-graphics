@@ -860,4 +860,4 @@ var parseScientific = function (numberString) {
     return parseFloat(output);
 }
 
-module.exports = SVGGraphics;
+export default SVGGraphics
