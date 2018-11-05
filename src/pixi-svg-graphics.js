@@ -1,11 +1,6 @@
 /* @flow weak */
 
-try{
-    var PIXI = require('PIXI')
-} catch (err){
-    var PIXI = window.PIXI
-    console.log(err)
-}
+import * as PIXI from 'pixi.js'
 
 var color2color = require('./vendor/color2color')
 
